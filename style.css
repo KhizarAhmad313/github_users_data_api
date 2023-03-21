@@ -47,13 +47,18 @@ h1 {
 }
 
 .profileImage {
-  width: 200px;
+  width: 175px;
   border-radius: 50%;
   box-shadow: 10px 12px 10px -4px rgba(20, 19, 20, 1);
 }
 
 h3 {
-  font-size: 2rem;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+p {
+  font-size: 1rem;
 }
 
 .profileButton {
@@ -75,4 +80,17 @@ h3 {
 .profileButton:hover {
   color: #dce2f0;
   text-decoration: none;
+}
+
+h4 {
+  text-align: center;
+  background-color: rgb(20, 192, 192);
+  color: black;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+h4:hover {
+  background-color: black;
+  color: #ffffff;
 }
