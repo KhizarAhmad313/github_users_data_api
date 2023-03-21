@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  font-family: "Sulphur Point", sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  /* width: 800px; */
+  flex-wrap: wrap;
+  gap: 5vh;
+}
+.card {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0);
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(39, 2, 2, 0.199);
+
+  width: 275px;
+  height: 350px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.profileImage {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 10px 12px 10px -4px rgba(20, 19, 20, 1);
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.profileButton {
+  background-color: #1aafbc;
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #331b3f;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.profileButton:hover {
+  color: #dce2f0;
+  text-decoration: none;
+}
